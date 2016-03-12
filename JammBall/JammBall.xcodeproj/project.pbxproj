@@ -7,69 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9868A4961C93D3350073091C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A4951C93D3350073091C /* AppDelegate.swift */; };
-		9868A4981C93D3350073091C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A4971C93D3350073091C /* MasterViewController.swift */; };
-		9868A49A1C93D3350073091C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A4991C93D3350073091C /* DetailViewController.swift */; };
-		9868A49D1C93D3350073091C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9868A49B1C93D3350073091C /* Main.storyboard */; };
-		9868A49F1C93D3350073091C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9868A49E1C93D3350073091C /* Assets.xcassets */; };
-		9868A4A21C93D3350073091C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9868A4A01C93D3350073091C /* LaunchScreen.storyboard */; };
-		9868A4AD1C93D3350073091C /* JammBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A4AC1C93D3350073091C /* JammBallTests.swift */; };
-		9868A4B81C93D3360073091C /* JammBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A4B71C93D3360073091C /* JammBallUITests.swift */; };
-		9868A4C61C93E2B70073091C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9868A4C51C93E2B70073091C /* GameKit.framework */; };
+		9868A54A1C941D490073091C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A5491C941D490073091C /* AppDelegate.swift */; };
+		9868A54C1C941D490073091C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A54B1C941D490073091C /* GameViewController.swift */; };
+		9868A54E1C941D490073091C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9868A54D1C941D490073091C /* Shaders.metal */; };
+		9868A5511C941D490073091C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9868A54F1C941D490073091C /* Main.storyboard */; };
+		9868A5531C941D490073091C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9868A5521C941D490073091C /* Assets.xcassets */; };
+		9868A5561C941D490073091C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9868A5541C941D490073091C /* LaunchScreen.storyboard */; };
+		9868A5611C941D490073091C /* JammBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A5601C941D490073091C /* JammBallTests.swift */; };
+		9868A56C1C941D4A0073091C /* JammBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868A56B1C941D4A0073091C /* JammBallUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9868A4A91C93D3350073091C /* PBXContainerItemProxy */ = {
+		9868A55D1C941D490073091C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9868A48A1C93D3340073091C /* Project object */;
+			containerPortal = 9868A53E1C941D480073091C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9868A4911C93D3350073091C;
+			remoteGlobalIDString = 9868A5451C941D490073091C;
 			remoteInfo = JammBall;
 		};
-		9868A4B41C93D3360073091C /* PBXContainerItemProxy */ = {
+		9868A5681C941D4A0073091C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9868A48A1C93D3340073091C /* Project object */;
+			containerPortal = 9868A53E1C941D480073091C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9868A4911C93D3350073091C;
+			remoteGlobalIDString = 9868A5451C941D490073091C;
 			remoteInfo = JammBall;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9868A4921C93D3350073091C /* JammBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JammBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9868A4951C93D3350073091C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9868A4971C93D3350073091C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9868A4991C93D3350073091C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		9868A49C1C93D3350073091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9868A49E1C93D3350073091C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9868A4A11C93D3350073091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9868A4A31C93D3350073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9868A4A81C93D3350073091C /* JammBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JammBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9868A4AC1C93D3350073091C /* JammBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JammBallTests.swift; sourceTree = "<group>"; };
-		9868A4AE1C93D3360073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9868A4B31C93D3360073091C /* JammBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JammBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9868A4B71C93D3360073091C /* JammBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JammBallUITests.swift; sourceTree = "<group>"; };
-		9868A4B91C93D3360073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9868A4C51C93E2B70073091C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		9868A5461C941D490073091C /* JammBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JammBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9868A5491C941D490073091C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9868A54B1C941D490073091C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9868A54D1C941D490073091C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		9868A5501C941D490073091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9868A5521C941D490073091C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9868A5551C941D490073091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9868A5571C941D490073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9868A55C1C941D490073091C /* JammBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JammBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9868A5601C941D490073091C /* JammBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JammBallTests.swift; sourceTree = "<group>"; };
+		9868A5621C941D4A0073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9868A5671C941D4A0073091C /* JammBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JammBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9868A56B1C941D4A0073091C /* JammBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JammBallUITests.swift; sourceTree = "<group>"; };
+		9868A56D1C941D4A0073091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9868A48F1C93D3350073091C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9868A4C61C93E2B70073091C /* GameKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9868A4A51C93D3350073091C /* Frameworks */ = {
+		9868A5431C941D490073091C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9868A4B01C93D3360073091C /* Frameworks */ = {
+		9868A5591C941D490073091C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9868A5641C941D4A0073091C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,55 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9868A4891C93D3340073091C = {
+		9868A53D1C941D480073091C = {
 			isa = PBXGroup;
 			children = (
-				9868A4C51C93E2B70073091C /* GameKit.framework */,
-				9868A4941C93D3350073091C /* JammBall */,
-				9868A4AB1C93D3350073091C /* JammBallTests */,
-				9868A4B61C93D3360073091C /* JammBallUITests */,
-				9868A4931C93D3350073091C /* Products */,
+				9868A5481C941D490073091C /* JammBall */,
+				9868A55F1C941D490073091C /* JammBallTests */,
+				9868A56A1C941D4A0073091C /* JammBallUITests */,
+				9868A5471C941D490073091C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9868A4931C93D3350073091C /* Products */ = {
+		9868A5471C941D490073091C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9868A4921C93D3350073091C /* JammBall.app */,
-				9868A4A81C93D3350073091C /* JammBallTests.xctest */,
-				9868A4B31C93D3360073091C /* JammBallUITests.xctest */,
+				9868A5461C941D490073091C /* JammBall.app */,
+				9868A55C1C941D490073091C /* JammBallTests.xctest */,
+				9868A5671C941D4A0073091C /* JammBallUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9868A4941C93D3350073091C /* JammBall */ = {
+		9868A5481C941D490073091C /* JammBall */ = {
 			isa = PBXGroup;
 			children = (
-				9868A4951C93D3350073091C /* AppDelegate.swift */,
-				9868A4971C93D3350073091C /* MasterViewController.swift */,
-				9868A4991C93D3350073091C /* DetailViewController.swift */,
-				9868A49B1C93D3350073091C /* Main.storyboard */,
-				9868A49E1C93D3350073091C /* Assets.xcassets */,
-				9868A4A01C93D3350073091C /* LaunchScreen.storyboard */,
-				9868A4A31C93D3350073091C /* Info.plist */,
+				9868A5491C941D490073091C /* AppDelegate.swift */,
+				9868A54B1C941D490073091C /* GameViewController.swift */,
+				9868A54D1C941D490073091C /* Shaders.metal */,
+				9868A54F1C941D490073091C /* Main.storyboard */,
+				9868A5521C941D490073091C /* Assets.xcassets */,
+				9868A5541C941D490073091C /* LaunchScreen.storyboard */,
+				9868A5571C941D490073091C /* Info.plist */,
 			);
 			path = JammBall;
 			sourceTree = "<group>";
 		};
-		9868A4AB1C93D3350073091C /* JammBallTests */ = {
+		9868A55F1C941D490073091C /* JammBallTests */ = {
 			isa = PBXGroup;
 			children = (
-				9868A4AC1C93D3350073091C /* JammBallTests.swift */,
-				9868A4AE1C93D3360073091C /* Info.plist */,
+				9868A5601C941D490073091C /* JammBallTests.swift */,
+				9868A5621C941D4A0073091C /* Info.plist */,
 			);
 			path = JammBallTests;
 			sourceTree = "<group>";
 		};
-		9868A4B61C93D3360073091C /* JammBallUITests */ = {
+		9868A56A1C941D4A0073091C /* JammBallUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9868A4B71C93D3360073091C /* JammBallUITests.swift */,
-				9868A4B91C93D3360073091C /* Info.plist */,
+				9868A56B1C941D4A0073091C /* JammBallUITests.swift */,
+				9868A56D1C941D4A0073091C /* Info.plist */,
 			);
 			path = JammBallUITests;
 			sourceTree = "<group>";
@@ -135,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9868A4911C93D3350073091C /* JammBall */ = {
+		9868A5451C941D490073091C /* JammBall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9868A4BC1C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBall" */;
+			buildConfigurationList = 9868A5701C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBall" */;
 			buildPhases = (
-				9868A48E1C93D3350073091C /* Sources */,
-				9868A48F1C93D3350073091C /* Frameworks */,
-				9868A4901C93D3350073091C /* Resources */,
+				9868A5421C941D490073091C /* Sources */,
+				9868A5431C941D490073091C /* Frameworks */,
+				9868A5441C941D490073091C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,78 +145,69 @@
 			);
 			name = JammBall;
 			productName = JammBall;
-			productReference = 9868A4921C93D3350073091C /* JammBall.app */;
+			productReference = 9868A5461C941D490073091C /* JammBall.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9868A4A71C93D3350073091C /* JammBallTests */ = {
+		9868A55B1C941D490073091C /* JammBallTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9868A4BF1C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBallTests" */;
+			buildConfigurationList = 9868A5731C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBallTests" */;
 			buildPhases = (
-				9868A4A41C93D3350073091C /* Sources */,
-				9868A4A51C93D3350073091C /* Frameworks */,
-				9868A4A61C93D3350073091C /* Resources */,
+				9868A5581C941D490073091C /* Sources */,
+				9868A5591C941D490073091C /* Frameworks */,
+				9868A55A1C941D490073091C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9868A4AA1C93D3350073091C /* PBXTargetDependency */,
+				9868A55E1C941D490073091C /* PBXTargetDependency */,
 			);
 			name = JammBallTests;
 			productName = JammBallTests;
-			productReference = 9868A4A81C93D3350073091C /* JammBallTests.xctest */;
+			productReference = 9868A55C1C941D490073091C /* JammBallTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9868A4B21C93D3360073091C /* JammBallUITests */ = {
+		9868A5661C941D4A0073091C /* JammBallUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9868A4C21C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBallUITests" */;
+			buildConfigurationList = 9868A5761C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBallUITests" */;
 			buildPhases = (
-				9868A4AF1C93D3360073091C /* Sources */,
-				9868A4B01C93D3360073091C /* Frameworks */,
-				9868A4B11C93D3360073091C /* Resources */,
+				9868A5631C941D4A0073091C /* Sources */,
+				9868A5641C941D4A0073091C /* Frameworks */,
+				9868A5651C941D4A0073091C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9868A4B51C93D3360073091C /* PBXTargetDependency */,
+				9868A5691C941D4A0073091C /* PBXTargetDependency */,
 			);
 			name = JammBallUITests;
 			productName = JammBallUITests;
-			productReference = 9868A4B31C93D3360073091C /* JammBallUITests.xctest */;
+			productReference = 9868A5671C941D4A0073091C /* JammBallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9868A48A1C93D3340073091C /* Project object */ = {
+		9868A53E1C941D480073091C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				KnownAssetTags = (
-					New,
-				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "寺内 信夫";
 				TargetAttributes = {
-					9868A4911C93D3350073091C = {
+					9868A5451C941D490073091C = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 4MR9PFC32K;
-						SystemCapabilities = {
-							com.apple.GameCenter = {
-								enabled = 1;
-							};
-						};
 					};
-					9868A4A71C93D3350073091C = {
+					9868A55B1C941D490073091C = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9868A4911C93D3350073091C;
+						TestTargetID = 9868A5451C941D490073091C;
 					};
-					9868A4B21C93D3360073091C = {
+					9868A5661C941D4A0073091C = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9868A4911C93D3350073091C;
+						TestTargetID = 9868A5451C941D490073091C;
 					};
 				};
 			};
-			buildConfigurationList = 9868A48D1C93D3340073091C /* Build configuration list for PBXProject "JammBall" */;
+			buildConfigurationList = 9868A5411C941D480073091C /* Build configuration list for PBXProject "JammBall" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9868A4891C93D3340073091C;
-			productRefGroup = 9868A4931C93D3350073091C /* Products */;
+			mainGroup = 9868A53D1C941D480073091C;
+			productRefGroup = 9868A5471C941D490073091C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9868A4911C93D3350073091C /* JammBall */,
-				9868A4A71C93D3350073091C /* JammBallTests */,
-				9868A4B21C93D3360073091C /* JammBallUITests */,
+				9868A5451C941D490073091C /* JammBall */,
+				9868A55B1C941D490073091C /* JammBallTests */,
+				9868A5661C941D4A0073091C /* JammBallUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9868A4901C93D3350073091C /* Resources */ = {
+		9868A5441C941D490073091C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9868A4A21C93D3350073091C /* LaunchScreen.storyboard in Resources */,
-				9868A49F1C93D3350073091C /* Assets.xcassets in Resources */,
-				9868A49D1C93D3350073091C /* Main.storyboard in Resources */,
+				9868A5561C941D490073091C /* LaunchScreen.storyboard in Resources */,
+				9868A5531C941D490073091C /* Assets.xcassets in Resources */,
+				9868A5511C941D490073091C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9868A4A61C93D3350073091C /* Resources */ = {
+		9868A55A1C941D490073091C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9868A4B11C93D3360073091C /* Resources */ = {
+		9868A5651C941D4A0073091C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9868A48E1C93D3350073091C /* Sources */ = {
+		9868A5421C941D490073091C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9868A49A1C93D3350073091C /* DetailViewController.swift in Sources */,
-				9868A4981C93D3350073091C /* MasterViewController.swift in Sources */,
-				9868A4961C93D3350073091C /* AppDelegate.swift in Sources */,
+				9868A54E1C941D490073091C /* Shaders.metal in Sources */,
+				9868A54C1C941D490073091C /* GameViewController.swift in Sources */,
+				9868A54A1C941D490073091C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9868A4A41C93D3350073091C /* Sources */ = {
+		9868A5581C941D490073091C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9868A4AD1C93D3350073091C /* JammBallTests.swift in Sources */,
+				9868A5611C941D490073091C /* JammBallTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9868A4AF1C93D3360073091C /* Sources */ = {
+		9868A5631C941D4A0073091C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9868A4B81C93D3360073091C /* JammBallUITests.swift in Sources */,
+				9868A56C1C941D4A0073091C /* JammBallUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9868A4AA1C93D3350073091C /* PBXTargetDependency */ = {
+		9868A55E1C941D490073091C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9868A4911C93D3350073091C /* JammBall */;
-			targetProxy = 9868A4A91C93D3350073091C /* PBXContainerItemProxy */;
+			target = 9868A5451C941D490073091C /* JammBall */;
+			targetProxy = 9868A55D1C941D490073091C /* PBXContainerItemProxy */;
 		};
-		9868A4B51C93D3360073091C /* PBXTargetDependency */ = {
+		9868A5691C941D4A0073091C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9868A4911C93D3350073091C /* JammBall */;
-			targetProxy = 9868A4B41C93D3360073091C /* PBXContainerItemProxy */;
+			target = 9868A5451C941D490073091C /* JammBall */;
+			targetProxy = 9868A5681C941D4A0073091C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9868A49B1C93D3350073091C /* Main.storyboard */ = {
+		9868A54F1C941D490073091C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9868A49C1C93D3350073091C /* Base */,
+				9868A5501C941D490073091C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9868A4A01C93D3350073091C /* LaunchScreen.storyboard */ = {
+		9868A5541C941D490073091C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9868A4A11C93D3350073091C /* Base */,
+				9868A5551C941D490073091C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -329,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9868A4BA1C93D3360073091C /* Debug */ = {
+		9868A56E1C941D4A0073091C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,7 +335,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -374,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		9868A4BB1C93D3360073091C /* Release */ = {
+		9868A56F1C941D4A0073091C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,38 +399,33 @@
 			};
 			name = Release;
 		};
-		9868A4BD1C93D3360073091C /* Debug */ = {
+		9868A5711C941D4A0073091C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JammBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.JammBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		9868A4BE1C93D3360073091C /* Release */ = {
+		9868A5721C941D4A0073091C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JammBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.JammBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		9868A4C01C93D3360073091C /* Debug */ = {
+		9868A5741C941D4A0073091C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = JammBallTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.JammBallTests;
@@ -452,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		9868A4C11C93D3360073091C /* Release */ = {
+		9868A5751C941D4A0073091C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,9 +446,10 @@
 			};
 			name = Release;
 		};
-		9868A4C31C93D3360073091C /* Debug */ = {
+		9868A5771C941D4A0073091C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = JammBallUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.JammBallUITests;
@@ -476,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		9868A4C41C93D3360073091C /* Release */ = {
+		9868A5781C941D4A0073091C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = JammBallUITests/Info.plist;
@@ -491,40 +474,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9868A48D1C93D3340073091C /* Build configuration list for PBXProject "JammBall" */ = {
+		9868A5411C941D480073091C /* Build configuration list for PBXProject "JammBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9868A4BA1C93D3360073091C /* Debug */,
-				9868A4BB1C93D3360073091C /* Release */,
+				9868A56E1C941D4A0073091C /* Debug */,
+				9868A56F1C941D4A0073091C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9868A4BC1C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBall" */ = {
+		9868A5701C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9868A4BD1C93D3360073091C /* Debug */,
-				9868A4BE1C93D3360073091C /* Release */,
+				9868A5711C941D4A0073091C /* Debug */,
+				9868A5721C941D4A0073091C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9868A4BF1C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBallTests" */ = {
+		9868A5731C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBallTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9868A4C01C93D3360073091C /* Debug */,
-				9868A4C11C93D3360073091C /* Release */,
+				9868A5741C941D4A0073091C /* Debug */,
+				9868A5751C941D4A0073091C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9868A4C21C93D3360073091C /* Build configuration list for PBXNativeTarget "JammBallUITests" */ = {
+		9868A5761C941D4A0073091C /* Build configuration list for PBXNativeTarget "JammBallUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9868A4C31C93D3360073091C /* Debug */,
-				9868A4C41C93D3360073091C /* Release */,
+				9868A5771C941D4A0073091C /* Debug */,
+				9868A5781C941D4A0073091C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9868A48A1C93D3340073091C /* Project object */;
+	rootObject = 9868A53E1C941D480073091C /* Project object */;
 }
